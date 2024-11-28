@@ -25,7 +25,20 @@ export const foodGuides = [
         ]
       },
       {
-        title: "必備廚具",
+        title: "製作指南",
+        icon: ChefHat,
+        items: [
+          { point: "清潔消毒", desc: "徹底清洗食材，器具需消毒" },
+          { point: "備料切塊", desc: "食材切小塊，方便煮熟與打碎" },
+          { point: "蒸煮食材", desc: "使用純水蒸煮，不加調味料" },
+          { point: "打碎過篩", desc: "用調理機打碎，視需要過篩確保細緻度" },
+          { point: "調整稠度", desc: "可加入適量煮食材的水調整稠度" },
+          { point: "分裝保存", desc: "分裝入副食品製冰盒，冷凍保存" },
+          { point: "解凍加熱", desc: "使用前移至冰箱解凍，隔水加熱至適溫" }
+        ]
+      },
+      {
+        title: "必需廚具",
         icon: ChefHat,
         items: [
           { point: "食物調理機", desc: "用於打碎食材成泥狀" },
