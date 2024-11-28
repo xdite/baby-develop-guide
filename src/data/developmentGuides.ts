@@ -1,4 +1,4 @@
-import { GamepadIcon, TestTubes, ShieldAlert } from 'lucide-react';
+import { GamepadIcon, TestTubes, ShieldAlert, ShoppingCart } from 'lucide-react';
 
 export const developmentGuides = [
   {
@@ -32,6 +32,13 @@ export const developmentGuides = [
           { name: "清潔消毒", desc: "定期清洗消毒玩具" }
         ]
       }
+    ],
+    shoppingList: [
+      { id: '0-2-1', name: "黑白對比圖卡", price: "NT$ 200-500" },
+      { id: '0-2-2', name: "小手鈴/搖鈴", price: "NT$ 300-600" },
+      { id: '0-2-3', name: "柔軟布書", price: "NT$ 250-450" },
+      { id: '0-2-4', name: "趴姿墊/遊戲墊", price: "NT$ 800-1500" },
+      { id: '0-2-5', name: "嬰兒防護墊", price: "NT$ 500-1000" }
     ]
   },
   {
@@ -65,6 +72,12 @@ export const developmentGuides = [
           { name: "使用時間", desc: "控制每次玩耍時間，避免過度刺激" }
         ]
       }
+    ],
+    shoppingList: [
+      { id: '3-4-1', name: "手搖鈴/抓握玩具", price: "NT$ 300-600" },
+      { id: '3-4-2', name: "健力架/遊戲健身架", price: "NT$ 1000-2000" },
+      { id: '3-4-3', name: "軟質觸摸書", price: "NT$ 250-450" },
+      { id: '3-4-4', name: "音樂玩具", price: "NT$ 500-1000" }
     ]
   },
   {
@@ -98,6 +111,13 @@ export const developmentGuides = [
           { name: "遊戲環境", desc: "確保活動空間安全" }
         ]
       }
+    ],
+    shoppingList: [
+      { id: '5-6-1', name: "疊疊樂/積木", price: "NT$ 400-800" },
+      { id: '5-6-2', name: "固齒器/咬咬玩具", price: "NT$ 200-400" },
+      { id: '5-6-3', name: "帶把手的玩具", price: "NT$ 300-600" },
+      { id: '5-6-4', name: "感官球", price: "NT$ 250-500" },
+      { id: '5-6-5', name: "防摔護墊", price: "NT$ 800-1500" }
     ]
   }
 ];
